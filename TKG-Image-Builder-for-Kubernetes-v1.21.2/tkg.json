@@ -1,0 +1,23 @@
+{
+  "build_version": "{{user `build_name`}}-kube-v1.21.2",
+  "pause_image": "projects.registry.vmware.com/tkg/pause:3.4.1",
+  "containerd_sha256": "4a30d16db5218179502efbdefce032672cb049045e2bc89f694f402d03d206bb",
+  "containerd_url": "https://tkgfiletransfertwo.blob.core.windows.net/tkgcontainer/v1.21.2+vmware.1/containerd/v1.4.6+vmware.1/cri-containerd-v1.4.6+vmware.1.linux-amd64.tar",
+  "containerd_version": "v1.4.6+vmware.1",
+  "crictl_sha256": "",
+  "crictl_url": "",
+  "custom_role": "true",
+  "custom_role_names": "/home/imagebuilder/tkg",
+  "goss_vars_file": "",
+  "goss_tests_dir": "/home/imagebuilder/goss",
+  "kubernetes_series": "v1.21",
+  "kubernetes_semver": "v1.21.2+vmware.1",
+  "kubernetes_source_type": "http",
+  "kubernetes_http_source": "https://tkgfiletransfertwo.blob.core.windows.net/tkgcontainer/v1.21.2+vmware.1/kubernetes",
+  "kubernetes_container_registry": "projects.registry.vmware.com/tkg",
+  "kubernetes_cni_semver": "v0.8.7+vmware.14",
+  "kubernetes_cni_source_type": "http",
+  "kubernetes_cni_http_source": "https://tkgfiletransfertwo.blob.core.windows.net/tkgcontainer/v1.21.2+vmware.1/cni",
+  "kubernetes_cni_http_checksum": "",
+  "kubernetes_load_additional_imgs": "true"
+}
